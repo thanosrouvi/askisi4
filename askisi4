@@ -2,7 +2,7 @@ def my_function(n):
  x =ord (n)
  a=0
  if x>1:
-  for i in range (x+1,):
+  for i in range (x+1):
    if i==0:
     a=0
    elif x%i==0 :
