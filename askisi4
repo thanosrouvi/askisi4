@@ -1,0 +1,19 @@
+def my_function(n):
+ x= ord(n)
+ a=0
+ if x>1:
+   for i in range (x+1):
+    if i==0:
+           a=0
+    elif x%i==0:
+           a=a+1
+   if a==2:
+    print('einai protos')
+   else:
+       print('den einai')
+ else:
+     print('den einai')
+
+
+n=raw_input('dwste ena stixio')
+my_function(n)
